@@ -24,7 +24,13 @@ git push --set-upstream origin master
 ```
 
 ## 4. MEMBUAT AKUN VERCEL
+Vercel adalah platform cloud yang menyediakan alat, alur kerja, dan infrastruktur untuk membangun dan menyebarkan aplikasi web. Vercel menawarkan berbagai fitur, seperti: CDN global, Domain kustom, HTTPS otomatis, Fitur rendering untuk membuat halaman dinamis, API Vercel untuk membuat halaman dinamis yang disesuaikan.
+
 Buat akun Vercel melalui situs resminya\
 [www.vercel.com](https://vercel.com)
 
 ## 5. DEPLOY KE VERCEL
+1. Kirim kode Anda ke repositori git Anda (GitHub, GitLab, BitBucket).\
+2. Impor proyek Anda ke Vercel.
+3. Vercel akan mendeteksi bahwa Anda menggunakan React dan akan mengaktifkan pengaturan yang benar untuk penerapan Anda.
+4. Aplikasi Anda sudah di-deploy! 
