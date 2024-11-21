@@ -22,6 +22,12 @@ git commit -m "first commit"
 ```
 git push --set-upstream origin master
 ```
+```
+git config --global user.name "Nama Anda"
+```
+```
+git config --global user.email "emailanda@email.com"
+```
 
 ## 4. MEMBUAT AKUN VERCEL
 Vercel adalah platform cloud yang menyediakan alat, alur kerja, dan infrastruktur untuk membangun dan menyebarkan aplikasi web. Vercel menawarkan berbagai fitur, seperti: CDN global, Domain kustom, HTTPS otomatis, Fitur rendering untuk membuat halaman dinamis, API Vercel untuk membuat halaman dinamis yang disesuaikan.
