@@ -6,12 +6,12 @@ GitHub merupakan layanan cloud yang berguna untuk menyimpan dan mengelola sebuah
 
 Konsep kerja GitHub pada dasarnya sama dengan Git yaitu dapat menulis source code secara individu atau tim. User interface yang tersedia pada GitHub lebih menarik dan mudah dipahami oleh pengguna awal. Pekerjaan secara tim, pengguna juga bisa melihat siapa penulis kode dan tanggal berapa kode tersebut dibuat.
 ## 3. UPLOAD KE GITHUB
-Tutorial untuk anak SMKN 2
+Tutorial untuk upload project ke github
 ```
 git init
 ```
 ```
-git remote add origin [repository_url]
+git remote add origin masukkan_repository_url
 ```
 ```
 git add .
@@ -30,7 +30,7 @@ Buat akun Vercel melalui situs resminya\
 [www.vercel.com](https://vercel.com)
 
 ## 5. DEPLOY KE VERCEL
-1. Kirim kode Anda ke repositori git Anda (GitHub, GitLab, BitBucket).\
+1. Kirim kode Anda ke repositori git Anda (GitHub, GitLab, BitBucket).
 2. Impor proyek Anda ke Vercel.
-3. Vercel akan mendeteksi bahwa Anda menggunakan React dan akan mengaktifkan pengaturan yang benar untuk penerapan Anda.
+3. Vercel akan mendeteksi project Anda dan akan mengaktifkan pengaturan yang benar untuk penerapan Anda.
 4. Aplikasi Anda sudah di-deploy! 
