@@ -134,7 +134,7 @@
     });
 
     // Set the date we're counting down to
-var countDownDate = new Date("Jan 5, 2030 15:37:25").getTime();
+var countDownDate = new Date("March 9, 2008 00:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -161,7 +161,10 @@ var x = setInterval(function() {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("hitungMundur").innerText = "Maaf acara sudah selesai";
+    document.getElementById("hitungMundur").classList.remove("grid");
+    document.getElementById("hitungMundur").classList.add("bg-red-500", "text-white", "rounded-lg", "p-2");
+  
   }
 }, 1000);
 
