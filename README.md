@@ -14,6 +14,12 @@ git init
 git remote add origin masukkan_repository_url
 ```
 ```
+git config --global user.name "Nama Anda"
+```
+```
+git config --global user.email "emailanda@email.com"
+```
+```
 git add .
 ```
 ```
