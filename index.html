@@ -117,18 +117,23 @@
             </div>
         </section>
     </div>
-    <script>
-        const btnUndangan = document.getElementById("btnUndangan");
-        const isiUndangan = document.getElementById("isiUndangan");
-
-        btnUndangan.addEventListener("click", function() {
-            // console.log("tombol terdeteksi");
-            isiUndangan.classList.toggle("hidden");
-
-        });
-
-    </script>
+    <!-- lagu -->
+     <audio src="MyLoveWestlife.mp3" id="lagu"></audio>
+    
 </body>
+
+<script>
+    const btnUndangan = document.getElementById("btnUndangan");
+    const isiUndangan = document.getElementById("isiUndangan");
+    const lagu = document.getElementById("lagu")
+
+    btnUndangan.addEventListener("click", function() {
+        // console.log("tombol terdeteksi");
+        isiUndangan.classList.toggle("hidden");
+        lagu.play();
+    });
+
+</script>
 
 
 </html>
